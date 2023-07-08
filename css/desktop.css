@@ -1,0 +1,24 @@
+@media screen and (min-width: 1158px) {
+    .container {
+    max-width: 1158px;
+    padding: 0 15px;
+    }
+    .main-content {
+        width: 1440px;}
+    .hero {
+        max-width: 1440px;
+        padding-top: 188px;
+        padding-bottom: 188px;
+        }
+    .hero-title {
+        font-weight: 700;
+        font-size: 56px;
+        line-height: 1.07;
+        letter-spacing: 0.02em;
+        color: var(--main-white-color);
+         max-width: 496px;
+        margin-left: auto;
+        margin-right: auto;
+        }
+
+}

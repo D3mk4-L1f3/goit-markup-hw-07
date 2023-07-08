@@ -1,0 +1,15 @@
+:root {
+    --logo-color: #4d5ae5;
+    --main-color: #2e2f42;
+    --hover-and-focus-color: #404bbf;
+    --text-color: #434455;
+    --main-white-color: #ffffff;
+    --footer-text-color: #f4f4fd;
+    --portfolio-btn-color: #e7e9fc;
+    --customers-link-color: #8e8f99;
+    --bg-modal-window: #fcfcfc;
+    --secondary-font: 'Raleway', sans-serif;
+    --indent: 24px;
+    --items: 3;
+  }
+  
