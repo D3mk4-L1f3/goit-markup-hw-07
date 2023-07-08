@@ -261,6 +261,7 @@
   .team-card {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     row-gap: 82px;
     column-gap: 72px;
   }
@@ -478,10 +479,15 @@ margin-left: auto;
   gap: 16px;
   }  */
 
+.subscribe {
+  display: none;
+}
 
 .subscribe-form-label{
   display: inline-block;
   margin-bottom: 16px;
+  
+;
   }
   
   .subscribe-text{
