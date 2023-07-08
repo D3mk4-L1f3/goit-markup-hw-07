@@ -9,7 +9,6 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Raleway:wght@800&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css">
-    <link rel="stylesheet" href="./css/styles.css">
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/vars.css">
     <link rel="stylesheet" href="./css/mobile.css">
@@ -20,7 +19,7 @@
                 <!-- ========================== HEADER ===============================================-->
     <header class="page-header container">
         <div class="header-container">
-            <!-- <div class="heder-content">
+            <div class="heder-content">
                 <nav class="page-nav">
                     <a class="logo link" href="./index.html">Web<span class="logo accent">Studio</span></a>
                     <ul class="menu-list list">
@@ -35,7 +34,7 @@
                             <li class="contacts-item"><a class="contact-link text-font link" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
                         </ul>
                 </address>
-            </div> -->
+            </div> 
             <div class="alternative-mob-menu">
                 <a class="logo link" href="./index.html">Web<span class="logo accent">Studio</span></a>
                 <button class="header-nav-button js-open-menu" aria-expanded="false" aria-controls="mobile-menu">
@@ -54,7 +53,7 @@
                 <h1 class="hero-title hero-margin">Effective Solutions for Your Business</h1> 
                 <button class="main-hero-button" type="button" data-modal-open >Order Service</button>
              </div>
-        </section>  
+        </section> 
                 <!-- ========================== TECHNOLOGY ===============================================-->
         <section class="techonoly-hidden container"> 
             <div class="tech-content">
@@ -67,7 +66,7 @@
                                 </use>
                             </svg>
                         </div>
-                        <h3 class="third-header">Strategy</h3>
+                        <h3 class="third-header positioning">Strategy</h3>
                         <p class="feature-descriptions content">
                             Our goal is to identify the business problem to walk away with the perfect and creative solution. 
                         </p>  
@@ -79,7 +78,7 @@
                                 </use>
                             </svg>
                         </div>
-                        <h3 class="third-header">Punctuality</h3>
+                        <h3 class="third-header positioning">Punctuality</h3>
                         <p class="feature-descriptions content">
                             Bring the key message to the brand's audience for the best price within the shortest possible time.
                         </p>
@@ -91,7 +90,7 @@
                                 </use>
                             </svg>
                         </div>
-                        <h3 class="third-header">Diligence</h3>
+                        <h3 class="third-header positioning">Diligence</h3>
                         <p class="feature-descriptions content">
                             Research and confirm brands that present the strongest digital growth opportunities and minimize risk.
                         </p>
@@ -103,16 +102,16 @@
                                 </use>
                             </svg>
                         </div>
-                        <h3 class="third-header" >Technologies</h3>
+                        <h3 class="third-header positioning" >Technologies</h3>
                         <p class="feature-descriptions content">
                             Design practice focused on digital experiences. We bring forth a deep passion for problem-solving.
                         </p>
                     </li>
                 </ul>
             </div>
-        </section> 
+        </section>  
                 <!-- ========================== TEAM-FUNCTION ===============================================-->
-        <section class="container work-description ">
+        <!-- <section class="container work-description ">
             <div class="function-style">
                 <h2 class="second-header extra-bottom-margin">What are we doing</h2>
                 <Ul class="visual-example-list list">
@@ -127,7 +126,7 @@
                     </li>
                 </Ul>
             </div>
-        </section> 
+        </section> -->
                 <!-- ========================== THE-TEAM ===============================================-->
         <section class="team container">
             <div class="team-style ">
@@ -283,7 +282,7 @@
                     </li>
                 </ul>
             </div>
-        </section> 
+        </section>
                 <!-- ========================== CUSTOMERS ===============================================-->
         <section class="customers container">
             <div class="customers-style ">
@@ -333,7 +332,7 @@
                     </li>
                 </ul>
             </div>
-        </section> 
+        </section>
     </main>
                 <!-- ========================== FOOTER ===============================================-->
     <footer class="container page-footer"> 
@@ -402,25 +401,23 @@
     </footer>
     
     <!-- =====================Mobile-navigation-menu========== -->
-    <div class="mobile-window-header js-menu-container" id="mobile-menu">
+    <!-- <div class="mobile-window-header js-menu-container" id="mobile-menu">
             <button class="btn-modal js-close-menu"  aria-expanded="false"
             aria-controls="mobile-menu" type="button">
                 <svg class="mobile-exit-btn" width="8" height="8">
                     <use href="./images/icons.svg#icon-close"></use>
                 </svg>
             </button>
-            <div class="menu-mobile-wrapper">
                 <ul class="mobile-list list">
                     <li class=" content"><a class="menu-mobile-link mobile-active link" href="./index.html">Studio</a></li>
                     <li class=" content"><a class="menu-mobile-link link" href="./portfolio.html">Portfolio</a></li>
                     <li class=" content"><a class="menu-mobile-link link" href="">Contacts</a></li>
                 </ul>
                 <ul class="contacts-mobile list">
-                    <li class="menu-mobile-link"><a class="mobile-link text-font link" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
-                    <li class="contacts-mobile-item"><a class="contact-link link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                </ul> 
-                <div>
-                    <ul class="mobile-links list">
+                    <li class="phone-mobile-link"><a class="menu-mobile-link box link" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
+                    <li><a class="contact-link link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                </ul>   
+                <ul class="mobile-links list">
                         <li class="footer-links-item">
                             <a class="social-team-footer" href="https://www.instagram.com" target="_blank" rel="noopener no referrer" aria-label="Instagram icon">
                                 <svg class="social-svg-style" width="24" height="24">
@@ -449,12 +446,10 @@
                                 </svg>
                             </a>
                         </li>
-                    </ul>
-                </div>
-            </div>
-    </div> 
+            </ul>
+    </div>  -->
     <!-- /* ================================= MODAL-WINDOW ==================================================== */ -->
-    <div class="modal-window-father is-hidden" data-modal>
+    <!-- <div class="modal-window-father is-hidden" data-modal>
         <div class="modal-window">
             <button class="btn-modal" type="button" data-modal-close>
                 <svg class="modal-window-svg" width="8" height="8">
@@ -481,7 +476,7 @@
                     </div>
                 </div>
                 <!-- secont-form -->
-                <div class="modal-form-style">
+                <!-- <div class="modal-form-style">
                     <label class="label-input" for="register_form_tel">Phone</label>
                     <div class="label-input-style">
                         <input class="modal-input"
@@ -493,9 +488,9 @@
                             <use href="./images/icons.svg#icon-phone"></use>
                         </svg>
                     </div>
-                </div> 
+                </div>  -->
                 <!-- third-form -->
-                 <div class="modal-form-style">
+                 <!-- <div class="modal-form-style">
                     <label class="label-input" 
                             for="register_form_email">Email</label>
                     <div class="label-input-style">
@@ -510,9 +505,9 @@
                             <use href="./images/icons.svg#icon-email"></use>
                         </svg>
                     </div>
-                </div> 
+                </div>  -->
                 <!-- comment -->
-                 <div class="comment-style">
+                 <!-- <div class="comment-style">
                     <label 
                         class="label-input" 
                         for="user-comment"
@@ -524,9 +519,9 @@
                         placeholder="Text input"
                         cols="30" 
                         rows="10"></textarea>
-                </div> 
+                </div>  -->
                 <!-- === Checking privacy zone ===-->
-                 <div class="check-box-style">
+                 <!-- <div class="check-box-style">
                     <input class="check-box visually-hidden"
                             type="checkbox"
                             id="user-privacy"
@@ -544,11 +539,12 @@
                         <a class="about-policy" 
                                 href="">Privacy Policy</a>       
                     </label>
-                </div>
-                 <button class="modal-btn" type="submit">Send</button>
+                </div> -->
+                 <!-- <button class="modal-btn" type="submit">Send</button>
             </form>
         </div>
-    </div> 
+    </div>  --> 
+    <script src="./modal.js" type="module"></script>
     <script
       defer
       src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
@@ -556,6 +552,5 @@
       crossorigin="anonymous"
     ></script>
     <script defer src="./mobile-menu.js"></script>
-    <script src="./modal.js" type="module"></script>
 </body>
 </html> 
