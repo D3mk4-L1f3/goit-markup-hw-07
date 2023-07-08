@@ -2,6 +2,9 @@
     .container {
       max-width: 768px;
     }
+    .mobile-window-header {
+      display: none;
+    }
     
 
     /* ===================================== Header ========================================== */
