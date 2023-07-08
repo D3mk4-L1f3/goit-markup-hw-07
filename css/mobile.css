@@ -380,6 +380,8 @@
   max-width: 428px;
   background-color: var(--main-color);
   padding-top: 97px;
+  padding-right: 15px;
+  padding-left: 15px;
   padding-bottom: 97px;
   margin-left: auto;
   margin-right: auto;
@@ -470,15 +472,17 @@ margin-left: auto;
 }
 
 
-.subscribe-form{display: flex; 
+/* .subscribe-form{display: flex; 
   flex-wrap: wrap;
-/* align-items: flex-end; */
+  align-items: flex-end; 
   gap: 16px;
-  }
+  }  */
 
 
 .subscribe-form-label{
-  display: inline-block;}
+  display: inline-block;
+  margin-bottom: 16px;
+  }
   
   .subscribe-text{
     display: block;
@@ -491,7 +495,7 @@ margin-left: auto;
   
 
 .subscribe-input{
-  width: 378px;
+  width: 400px;
   height: 40px;
   border: 1px solid var(--main-white-color);
   background-color: transparent;
