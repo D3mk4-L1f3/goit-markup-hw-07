@@ -445,7 +445,7 @@ text-align: center;
   
 
 .subscribe-input{
-  width: 400px;
+  min-width: 280px;
   height: 40px;
   border: 1px solid var(--main-white-color);
   background-color: transparent;
@@ -591,22 +591,27 @@ text-align: center;
     width: 100%;
   }
 
-  @media (min-width: 427px) {
+  @media (min-width: 428px) {
+    
     .mobile-window-header {
       display: none;
     }
+    
+    .subscribe-input{
+      min-width: 398px;}
   }
 
   
 
-  @media screen and (min-width: 320px){
-    .container{ max-width: 428px;}
+  @media screen and (max-width: 427px){
     
-  }
+   .subscribe-input{
+    width: 280px;}
+  } 
 
 @media screen and (max-width: 767px) {
   .heder-content{ display: none;}
-
+  
   .footer-left-side {
     margin-right: auto;
     margin-bottom: 72px;
