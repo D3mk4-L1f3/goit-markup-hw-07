@@ -99,10 +99,10 @@
       }
 /* ===================================== MAIN ========================================== */
     .main-content {
-        max-width: 768px;}
+        width: 768px;}
 /* -- ============================== HERO ===============================================--> */
     .hero {
-        width: 768px;}
+        max-width: 768px;}
 
     .hero-title {
         max-width: 496px;
@@ -151,7 +151,7 @@
     letter-spacing: 0.02em;
     color: var(--main-color); 
     }
-/* ===================```~~~~~~========Section#4============================= */
+/* ===========================Section#4============================= */
 
     .customer-list{
       row-gap: 72px;
@@ -180,12 +180,40 @@
   }
 
   .subscribe-input{
-    width: 264px;
+    max-width: 264px;
   }
+
   .subscribe-form{display: flex; 
     flex-wrap: wrap;
     align-items: flex-end; 
     gap: 24px;
     }  
+
+/* ============Portfolio========== */
+.main-portfolio{
+  padding-top: 64px;
+  padding-bottom: 96px;
+}
+
+.portfolio-nav-list{
+  justify-content: center;
+  margin-bottom: 64px;
+}
+
+.portfolio-button {
+  padding: 12px 24px;
+} 
+
+.portfilio-picture{
+  width: 356px;
+  height: 300px;
+  }
+ 
+.portfolio-img {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 72px;
+  }
 
 } 

@@ -1,24 +1,133 @@
+@media  screen and (max-width: 1157){
+    .technology-icon-style{
+        display: none;
+    }
+    .work-description {
+        display: none;
+      }
+
+    .extra-bottom-margin{
+        display: none;
+    }
+    .team {
+        padding-top: 96px;
+        padding-bottom: 96px;
+      }
+      .customers {
+        padding-top: 96px;
+      padding-bottom: 96px;
+      text-align: center;
+      }
+      
+      .customer-list{
+        row-gap: 72px;
+        column-gap: 24px;
+        justify-content: center;
+      }
+  
+      .customer-item{
+        width: calc((100% - 232px) / 3);
+      } 
+}
+    
+
 @media screen and (min-width: 1158px) {
     .container {
-    max-width: 1158px;
-    padding: 0 15px;
+      max-width: 1158px;
+      padding: 0 15px;
     }
-    .main-content {
-        width: 1440px;}
-    .hero {
-        max-width: 1440px;
-        padding-top: 188px;
-        padding-bottom: 188px;
-        }
-    .hero-title {
-        font-weight: 700;
-        font-size: 56px;
-        line-height: 1.07;
-        letter-spacing: 0.02em;
-        color: var(--main-white-color);
-         max-width: 496px;
-        margin-left: auto;
-        margin-right: auto;
-        }
+/* ===================================== Header ========================================== */
+
+.page-nav{
+    gap: 76px;
+}
+.contacts {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+  }
+
+/* ===================================== MAIN ========================================== */
+.main-content {
+    min-width: 1440px;
+}
+
+/* ==========<================ HERO ===============================================--> */
+
+.hero {
+    max-width: 1440px;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero-bg-picture/background-picture.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: #2e2f42;
+    text-align: center;
+    padding: 188px 472px;
+    padding-bottom: 112px;
+  }
+.hero-title {
+    max-width: 496px;
+    font-size: 56px;
+    letter-spacing: 0.02em;
+    text-transform:none;}
+
+.hero-margin {
+    margin-bottom: 48px;
+    }    
+   /* =======================Section #1==================== */
+  .tech-list{
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: var(--indent);
+  }
+
+  .content{
+    flex-basis: calc((100% - var(--indent) * (var(--items) - 1)) / var(--items));
+  }
+  .technology-list{
+    --team: 4;}
+
+  .feature-item {
+    width: calc((100% - 72px) / 4);
+  }
+
+  .the-third-heder{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+  }
+
+  .feature-descriptions{
+    font-weight: 400;
+  }
+
+/* ============================Section#3================= */
+.team {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+
+  
+/* .photo-teammate{} */
+
+/* =================Section#4======================= */
+.customers {
+    padding-top: 120px;
+    padding-bottom: 120px;}
+
+.customer-list{
+    gap: 24px;
+    flex-wrap: nowrap;
+  }
+
+/*  ========================== FOOTER ===============================================--> */
+
+.page-footer{
+max-width: 1440px;
+margin: 0 auto;
+padding: 100px 0;
+}
+
 
 }
+
