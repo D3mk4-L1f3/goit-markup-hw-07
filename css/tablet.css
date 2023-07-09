@@ -10,6 +10,9 @@
     
 
     /* ===================================== Header ========================================== */
+    .page-header {
+      max-width: 768px;}
+
       .alternative-mob-menu{
         display: none;
       }
@@ -201,6 +204,7 @@
   }
 
 .portfolio-nav-list{
+  justify-content: center;
   margin-bottom: 64px;
   }
 

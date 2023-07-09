@@ -1,9 +1,10 @@
 @media  screen and (max-width: 1157){
-    .technology-icon-style{
-        display: none;
-    }
     .work-description {
         display: none;
+      }
+      .techonoly-hidden {
+        padding-top: 96px;
+        padding-bottom: 96px;
       }
 
     .extra-bottom-margin{
@@ -60,6 +61,8 @@
       padding: 0 15px;
     }
 /* ===================================== Header ========================================== */
+.page-header {
+  max-width: 1220px;}
 
 .page-nav{
     gap: 76px;
@@ -98,6 +101,21 @@
     margin-bottom: 48px;
     }    
    /* =======================Section #1==================== */
+   .technology-icon-style{
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    height: 112px;
+    background-color: var(--footer-text-color);
+    border-radius: 4px; 
+    margin-bottom: 8px;
+    
+  }
+  .techonoly-hidden {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+
   .tech-list{
     flex-direction: row;
     flex-wrap: nowrap;
@@ -119,10 +137,17 @@
     font-size: 20px;
     line-height: 1.2;
   }
+  
 
   .feature-descriptions{
     font-weight: 400;
   }
+/* ============================Section#3================= */
+
+.work-description {
+  text-align: center;
+  padding-bottom: 120px;
+}
 
 /* ============================Section#3================= */
 .team {
