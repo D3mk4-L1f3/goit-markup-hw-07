@@ -28,6 +28,29 @@
       .customer-item{
         width: calc((100% - 232px) / 3);
       } 
+
+      .style-footer{
+        text-align: start;
+        column-gap: 24px;
+        row-gap: 72px;}
+
+    .footer-left-side {
+      margin-right: auto;
+      margin-bottom: 72px;
+      margin-left: auto;
+      }
+
+      .footer-centr {
+        margin-right: auto;
+        margin-bottom: 72px;
+        margin-left: auto;
+      }
+      .portfolio-nav-list {
+        justify-content: center;
+        margin-bottom: 64px;
+      }
+
+
 }
     
 
@@ -127,7 +150,35 @@ max-width: 1440px;
 margin: 0 auto;
 padding: 100px 0;
 }
+.style-footer{
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: flex-start;
+}
 
+.footer-left-side {
+  margin-left: 0;
+  }
 
+  .footer-centr {
+    margin-right: 0;
+    margin-left: 40px;
+  }
+
+  .subscribe-btn{
+    min-width: 165px;} 
+/* ============Portfolio========== */
+    
+
+.portfolio-nav-list {
+      justify-content: center;
+      margin-bottom: 72px;
+    }
+
+    .main-portfolio{
+      padding-top: 100px;
+      padding-bottom: 120px;
+    }
 }
 

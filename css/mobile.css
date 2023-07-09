@@ -127,7 +127,7 @@
 }
 
 .hero-margin {
-  margin-bottom: 72px;
+  margin-bottom: 96px;
 }
 
 .main-hero-button {
@@ -176,6 +176,7 @@
   background-color: var(--footer-text-color);
   border-radius: 4px; 
   margin-bottom: 8px;
+  display: none;
 }
 .third-header {
   font-weight: 700;
@@ -200,6 +201,7 @@
 /* ============================Section#2================= */
 
 .work-description {
+  display: none;
   text-align: center;
   padding-bottom: 120px;
 }
@@ -363,11 +365,8 @@
   max-width: 428px;
   background-color: var(--main-color);
   padding-top: 97px;
-  padding-right: 15px;
-  padding-left: 15px;
   padding-bottom: 97px;
-  margin-left: auto;
-  margin-right: auto;
+ margin: 0 auto;
 }
 
 .style-footer{
@@ -836,6 +835,7 @@ text-align: center;
 
 /* ================================= PORTFOLIO-MAIN ==================================================== */
 
+
 .portfolio-nav-list {
   display: flex;
   column-gap: 24px;
@@ -937,7 +937,7 @@ border-top: none;
   }
 
  .subscribe-input{
-  max-width: 280px;
+  max-width: 290px;
   }
 
   .menu-mobile-link {
@@ -972,14 +972,15 @@ border-top: none;
     top: 75%;
     width: 392px;
     padding: 72px 16px 24px 16px;
+    
 }
 
 } 
 
 @media (min-width: 428px) {
-  /* .subscribe-input{
-    min-width: 398px;
-  } */
+  .subscribe-input{
+    /* min-width: 398px; */
+  } 
 
   .modal-window{
       top: 75%;
@@ -1008,9 +1009,6 @@ border-top: none;
       margin-bottom: 72px;
       margin-left: auto;
     }
-    .page-footer {
-      padding-right: 15px;
-      padding-left: 15px;}
 
     .subscribe-form-label{
        margin-bottom: 16px;
@@ -1030,8 +1028,9 @@ border-top: none;
      flex-wrap: wrap;
       row-gap: 16px;
       margin-bottom: 48px;
+      padding-right: 30px;
     }
-
+    
     .portfolio-img{
       row-gap: 48px;
       justify-content: center;
