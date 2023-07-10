@@ -548,11 +548,6 @@ text-align: center;
 
   }
 
-  .content {
-  }
-
-
-  
   .contacts-mobile {
     max-width: 353px;
     margin-bottom: 48px;
@@ -812,11 +807,6 @@ text-align: center;
   column-gap: 24px;
 }
 
-.portfolio-nav-item{
-  /* width: calc((100% - 187px) / 3); */
-}
-
-
 .portfolio-button {
   background: var(--footer-text-color);
   color: var(--logo-color);
@@ -853,10 +843,6 @@ text-align: center;
   display: flex;
   flex-wrap: wrap;
 }
-
-.portfolio-img-item{
-
-} 
 
 .card-img{
   display: block;
@@ -958,9 +944,6 @@ border-top: none;
   .extra-bottom-margin{
     margin-bottom: 72px;
   }
-  .subscribe-input{
-    /* min-width: 398px; */
-  } 
 
   .modal-window{
       top: 50%;
