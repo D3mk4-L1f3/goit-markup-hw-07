@@ -107,18 +107,18 @@
             </div>
         </section> 
                 <!-- ========================== TEAM-FUNCTION ===============================================-->
-        <section class=" work-description container ">
-            <div class="function-style">
+        <section class=" work-description  ">
+            <div class="function-style container">
                 <h2 class="second-header extra-bottom-margin">What are we doing</h2>
                 <Ul class="visual-example-list list">
                     <li class="example-item content">
-                        <img src="./images/doing-des/monitor-1.jpg" alt="pc monitor" width="360" height="300">
+                        <img srcset="./images/doing-des/1/img-1v@1x.jpg 1x,./images/doing-des/1/img-1v@2x.jpg 2x" src="./images/doing-des/1/com.jpg" alt="pc monitor" width="360" height="300">
                     </li>
                     <li class="example-item content">
-                        <img src="./images/doing-des/screenphone-2.jpg" alt="screen phone" width="360" height="300">
+                        <img srcset="./images/doing-des/2/img-2v@1x.jpg 1x,./images/doing-des/2/img-2v@2x.jpg 2x" src="./images/doing-des/2/phone.jpg" alt="screen phone" width="360" height="300">
                     </li>
                     <li class="example-item content">
-                        <img src="./images/doing-des/lapphonescreen-3.jpg" alt="pc & mobile display screen" width="360" height="300">
+                        <img srcset="./images/doing-des/3/comp1x.jpg 1x,./images/doing-des/3/comp2x.jpg 2x" src="./images/doing-des/3/bouth.jpg" alt="pc & mobile display screen" width="360" height="300">
                     </li>
                 </Ul>
             </div>
@@ -129,7 +129,7 @@
                 <h2 class="second-header extra-bottom-margin">Our Team</h2>
                 <ul class="team-card list">
                     <li class="team-item content">
-                        <img class="photo-teammate" src="./images/team/mark_guerrero.jpg" alt="mark_guerrero" width="264" height="260">   
+                        <img class="photo-teammate" srcset="./images/team/mark-guerrero/imgv@2x.jpg 2x" src="./images/team/mark-guerrero/imgv@1x.jpg" alt="mark_guerrero" width="264" height="260">   
                         <div class="style-card content">
                             <h3 class="third-header names">Mark Guerrero</h3>
                             <p class="feature-descriptions jobs added-margin">Product Designer</p>
@@ -166,7 +166,7 @@
                         </div>
                     </li>
                     <li class="team-item content">
-                        <img class="photo-teammate" src="./images/team/tom_ford.jpg" alt="tom_ford" width="264" height="260">
+                        <img class="photo-teammate" srcset="./images/team/tom-ford/imgv@2x.jpg 2x" src="./images/team/tom-ford/imgv@1x.jpg" alt="tom_ford" width="264" height="260">
                         <div class="style-card content">
                             <h3 class="third-header names">Tom Ford</h3>  
                             <p class="feature-descriptions jobs added-margin">Frontend Developer</p>
@@ -203,7 +203,7 @@
                         </div>
                     </li>
                     <li class="team-item content">
-                        <img class="photo-teammate" src="./images/team/camila_garsia.jpg" alt="camila_garsia" width="264" height="260">
+                        <img class="photo-teammate" srcset="./images/team/camilia-garsia/imgv@2x.jpg 2x" src="./images/team/camilia-garsia/imgv@1x.jpg" alt="camila_garsia" width="264" height="260">
                         <div class="style-card content">
                             <h3 class="third-header names">Camila Garcia</h3>
                             <p class="feature-descriptions jobs added-margin">Marketing</p>
@@ -240,7 +240,7 @@
                         </div>
                     </li>
                     <li class="team-item content">
-                        <img class="photo-teammate" src="./images/team/daniel_wilson.jpg" alt="daniel_wilson" width="264" height="260">
+                        <img class="photo-teammate" srcset="./images/team/daniel-wilson/img2x.jpg 2x" src="./images/team/daniel-wilson/imgv@1x.jpg" alt="daniel_wilson" width="264" height="260">
                         <div class="style-card content">
                             <h3 class="third-header names">Daniel Wilson</h3>
                             <p class="feature-descriptions jobs added-margin">UI Designer</p>
@@ -460,6 +460,8 @@
                     <div class="label-input-style">
                         <input class="modal-input"
                             required
+                            minlength="3"
+                            pattern="^[a-zA_Zа-яА_ЯіЇїЇ]+$"
                             id="user-name"
                             name="user-name" 
                             type="text">
@@ -476,6 +478,7 @@
                     <div class="label-input-style">
                         <input class="modal-input"
                                 required 
+                                pattern="!@#$%^&*()_\/.,';][()]"
                                 id="register_form_tel"
                                 name="register_form_tel" 
                                 type="tel">
