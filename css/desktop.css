@@ -101,7 +101,7 @@
     max-width: 1440px;
     padding: 188px 472px;
   }
-  
+
 .hero-title {
     max-width: 496px;
     font-size: 56px;
@@ -203,7 +203,7 @@
 /*  ========================== FOOTER ===============================================--> */
 
 .page-footer{
-min-width: 1440px;
+max-width: 1440px;
 margin: 0 auto;
 padding: 100px 0;
 }
