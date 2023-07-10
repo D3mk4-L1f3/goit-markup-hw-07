@@ -7,9 +7,26 @@
         padding-bottom: 96px;
       }
 
-    .extra-bottom-margin{
-        display: none;
-    }
+      .chenged {
+        font-family: inherit;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.11;
+        letter-spacing: 0.02em;
+        text-transform: capitalize;
+        color: #2e2f42;
+        margin-bottom: 8px;
+      }
+      
+      .mixed {
+        font-family: inherit;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: var(--text-color);
+      } 
+    
     .team {
         padding-top: 96px;
         padding-bottom: 96px;
@@ -62,7 +79,7 @@
     }
 /* ===================================== Header ========================================== */
 .page-header {
-  max-width: 1220px;}
+  max-width: 1440px;}
 
 .page-nav{
     gap: 76px;
@@ -95,6 +112,10 @@
     margin-bottom: 48px;
     }    
    /* =======================Section #1==================== */
+   .techonoly-hidden {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
    .technology-icon-style{
     display: flex;
     align-items: center; 
@@ -105,11 +126,7 @@
     margin-bottom: 8px;
     
   }
-  .techonoly-hidden {
-    padding-top: 120px;
-    padding-bottom: 120px;
-  }
-
+  
   .tech-list{
     flex-direction: row;
     flex-wrap: nowrap;
@@ -120,28 +137,48 @@
     flex-basis: calc((100% - var(--indent) * (var(--items) - 1)) / var(--items));
   }
   .technology-list{
-    --team: 4;}
+    --team: 3;}
 
   .feature-item {
     width: calc((100% - 72px) / 4);
   }
 
-  .the-third-heder{
+  .chenged{
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--main-color);
+    margin-bottom: 8px;
   }
   
-
-  .feature-descriptions{
+  .mixed{
+    font-family: inherit;
     font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--text-color);
   }
-/* ============================Section#3================= */
+/* ============================Section# 2================= */
+
 
 .work-description {
   display: contents;
   text-align: center;
+}
+.function-style{
   padding-bottom: 120px;
+} 
+
+
+.visual-example-list {
+  display: flex;
+  justify-content:space-between;
+  gap: var(--indent);
+}
+.example-item{
+  --items: 3;
 }
 
 /* ============================Section#3================= */
