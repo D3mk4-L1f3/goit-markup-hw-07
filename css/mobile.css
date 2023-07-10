@@ -943,6 +943,9 @@ border-top: none;
     width: 319px;
     padding: 72px 16px 24px 16px;
   }
+  .mobile-links{
+    margin-bottom: 25px;
+  }
   
 
 } 
