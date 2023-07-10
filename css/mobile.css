@@ -901,6 +901,11 @@ border-top: none;
     margin-right: auto;
   }
 
+  .modal-text{
+    font-size: 12px;
+  }
+
+
  .subscribe-input{
   max-width: 290px;
   }
@@ -938,6 +943,8 @@ border-top: none;
     width: 319px;
     padding: 72px 16px 24px 16px;
   }
+  
+
 } 
 
 @media (min-width: 428px) {
