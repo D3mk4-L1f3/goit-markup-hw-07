@@ -106,15 +106,12 @@
     margin-right: 0;
     margin-left: auto;
     padding: 0;
-    border:none
+    border: none;
+    background-color: transparent;
+    
+
   }
 
-  .header-nav-button:hover,
-  .header-nav-button:focus {
-  background-color: rgba(0, 0, 0, 0.1);
-    }
-  
-  
   .mobile-nav-svg{
    stroke: var(--main-color);
   }
@@ -337,7 +334,6 @@
 /* ===========fooooter=========== */
 
 .page-footer {
-  max-width: 428px;
   background-color: var(--main-color);
   padding-top: 97px;
   padding-bottom: 97px;
